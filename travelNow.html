@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,500,700">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+         <header class="hero">
+              <a href="index.html">
+            <img src="./Image/LogoVS.png" alt="" class="logo">
+            </a>
+
+            <nav class="main-nav">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Destinationpage.html">Destination</a></li>    
+                <li><a href="AboutUs.Html">About Us</a></li>
+                <li><a href="ContactUs.Html">Contact Us</a></li>
+                <li><a href="travelNow.html">Travel Now</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="hero-content">
+                <h1>
+                    Experience<br />
+                    the <span class="highlight">unforgettable</span>
+                </h1>
+
+                <p>Your gateway to the most iconic destinations across Indonesia</p>
+            </div>
+
+            <button class="btn-toTravelNow">
+                <a href="travelNow.html">Plan My Trip</a>
+                <span class="arrow-right"></span>
+            </button>
+
+
+        </header>
+
+          <section class="overwhelm">
+            <h2>Travel Now</h2>
+            <p> Book your journey today and explore the wonders of Indonesia with ease.</p>
+        </section>
+
+        <div class="separator2"></div>
+
+        <div class="form-container">
+
+             <div class="InfoForm">
+                <img src="./Image/nils-nedel-ONpGBpns3cs-unsplash.jpg" alt="">
+                    <div class="infoForm-content">
+                        <h2>What You’ll Get</h2>
+                        <p>Every VSTravel package includes everything you need for a smooth and enjoyable trip. From the moment you land to your return home, we’ve got it covered:</p>
+                    </div>
+                
+                
+            </div>
+
+
+            <form id ="myForm" onsubmit="return sendData()" class="label_Container">
+
+                <div class="form">
+                     <label for="name">Name</label>
+                     <input type="text" id="name" name="name" placeholder="Full Name">
+                     <span class="error" id="errorName"></span>
+
+
+                </div>
+
+                <div class="form">
+                     <label for="phoneNumber">PhoneNumber</label>
+                     <input type="text" id="phoneNumber" placeholder="0812xxx-xxxx">
+                    <span class="error" id="errorPhoneNumber"></span>
+
+                </div>
+
+
+                <div class="form">
+                     <label for="TotalParticipant">Total Paricipant</label>
+                     <input type="text" id="TotalParticipant" placeholder="Ex : 1">
+                     <span class="error" id="errorTotal"></span>
+
+
+                </div>
+
+                <div class="form">
+                     <label for="DepartureDate">Departure Date</label>
+                     <input type="date" id="departureDate" placeholder="MM/DD/YYYY">
+                     <span class="error" id="errorDeparture"></span>
+
+
+                </div>
+
+                <div class="form">
+                     <label for="ReturnDate">Return Date</label>
+                     <input type="date" id="returnDate" placeholder="MM/DD/YYYY">
+                     <span class="error" id="errorReturn"></span>
+
+
+                </div>
+
+               
+                <div class="submitForm">
+                    <input type="submit" value="Submit">
+                </div>
+                
+                
+            </form>
+           
+            
+             
+
+
+
+        </div>
+
+
+        <section class="fitur">
+
+            <div class="fitur_card">
+                <img src="./Image/Home.png" alt="">
+                <p>Nights Accommodation in a handpicked hotel or villa.</p>
+            </div>
+
+            <div class="fitur_card">
+                <img src="./Image/mark_email_unread.png" alt="">
+                <p> Round-trip Flight Tickets, booked and confirmed for your chosen dates.</p>
+            </div>
+
+            
+            <div class="fitur_card">
+                <img src="./Image/directions_car.png" alt="">
+                <p>  Private Transportation throughout the trip — including airport pickup and drop-off.</p>
+            </div>
+
+            
+            <div class="fitur_card">
+                <img src="./Image/person.png" alt="">
+                <p> Round-trip Flight Tickets, booked and confirmed for your chosen dates.</p>
+            </div>
+
+
+
+        </section>
+        
+
+
+
+       
+           <div class="separator2"></div>
+
+
+        <footer>
+            <div class="footer-card">
+            <a href="index.html">
+            <img src="./Image/LogoVS.png" alt="" class="logo">
+            </a>
+
+            <ul class="footer-links">
+             <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="ContactUs.Html">Contact Us</a></li>
+                <li><a href="team.html">Our Team</a></li>
+            </ul>
+
+            </div>
+
+        </footer>
+       
+
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
